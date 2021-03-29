@@ -13,4 +13,4 @@ RUN poetry install --no-interaction
 
 COPY ./kaiba_api /app
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "$PORT"]
+CMD exec uvicorn main:app --host=0.0.0.0 --port=$PORT
