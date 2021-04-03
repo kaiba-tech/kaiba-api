@@ -9,7 +9,7 @@ COPY poetry.lock pyproject.toml /app/
 
 
 RUN poetry config virtualenvs.create false
-RUN poetry install --no-interaction
+RUN poetry install --no-dev --no-interaction
 
 COPY ./kaiba_api /app
 

@@ -12,6 +12,7 @@ origins = [
     'http://localhost:5000',
     'http://localhost',
     'http://localhost:8080',
+    'https://app.kaiba.tech',
 ]
 
 app.add_middleware(
