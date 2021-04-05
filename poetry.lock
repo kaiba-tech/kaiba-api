@@ -337,7 +337,7 @@ format_nongpl = ["idna", "jsonpointer (>1.13)", "webcolors", "rfc3986-validator 
 
 [[package]]
 name = "kaiba"
-version = "0.2.0"
+version = "0.2.1"
 description = "Configurable and documentable Json transformation and mapping"
 category = "main"
 optional = false
@@ -692,8 +692,8 @@ typing_extensions = ">=3.6,<4.0"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "a3b7032eae2796f5b7a2c4c01aa0c4db3757150c10ef4019a5541a801e8a8c96"
+python-versions = "^3.8"
+content-hash = "aec56f7bef10fb41cc8b1e5c931d169382184387101b5e6a60cb88c07424f13e"
 
 [metadata.files]
 astor = [
@@ -809,8 +809,8 @@ jsonschema = [
     {file = "jsonschema-3.2.0.tar.gz", hash = "sha256:c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a"},
 ]
 kaiba = [
-    {file = "kaiba-0.2.0-py3-none-any.whl", hash = "sha256:9685745279951c268c07aef02a07fc212144ed4809a549f3e54b9276536a3541"},
-    {file = "kaiba-0.2.0.tar.gz", hash = "sha256:c0001b5a8cbdb9855c3a37a0fef4d039d248a66681974be85f561b8a7a3a42cc"},
+    {file = "kaiba-0.2.1-py3-none-any.whl", hash = "sha256:c7abdc6206aca0239e52653a43c2be208fa1091291a0765ee815611fafc4272a"},
+    {file = "kaiba-0.2.1.tar.gz", hash = "sha256:81c75ffdaafa621892e6f0af9ff96c85c5f7067c15739d2b21dda44205a2b5c5"},
 ]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
